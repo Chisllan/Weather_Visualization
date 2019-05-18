@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Comparison</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bar">
+
+        <a class="navbar-brand" href="https://Chisllan.github.io/Weather_Visualization/">
+            <h2 class='brand'>Latitude</h2>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle navformat" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu navformat" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item navformat"
+                            href="https://Chisllan.github.io/Weather_Visualization/temperature">Temperature</a>
+                        <a class="dropdown-item navformat"
+                            href="https://Chisllan.github.io/Weather_Visualization/wind_speed">Wind Speed</a>
+                        <a class="dropdown-item navformat"
+                            href="https://Chisllan.github.io/Weather_Visualization/humidity">Humidity</a>
+                        <a class="dropdown-item navformat"
+                            href="https://Chisllan.github.io/Weather_Visualization/cloudiness">Cloudiness</a>
+                        <a class="dropdown-item navformat"
+                            href="https://Chisllan.github.io/Weather_Visualization/lat-long">Latitude & Longitude</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navformat"
+                        href="https://Chisllan.github.io/Weather_Visualization/comparison">Comparison
+                        <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navformat"
+                        href="https://Chisllan.github.io/Weather_Visualization/data">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class='container'>
+        <div class='row'>
+            <div class='col-12'>
+                <h2 class='titulos'>Comparison</h2>
+                <br>
+                <p>Click in any plot to get an in depth analysis</p>
+            </div>
+        </div>
+
+        <div class='row'>
+            <div class='col-sm-12 col-md-6'>
+                <h3 class='titulos_h3 center'>Temperature</h3>
+                <div class='center'>
+                    <a href="https://Chisllan.github.io/Weather_Visualization/temperature">
+                        <img src="Resources/temperature.png" class="img-fluid max-width:100%" width=380 alt="temperature">
+                    </a>
+                </div>
+
+            </div>
+            <div class='col-sm-12 col-md-6'>
+                <h3 class='titulos_h3 center'>Wind Speed</h3>
+                <div class='center'>
+                    <a href="https://Chisllan.github.io/Weather-visualization/wind_speed">
+                        <img src="Resources/wind_speed.png" class="img-fluid max-width:100%" width=380 alt="wind_speed">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class='row'>
+            <div class='col-sm-12 col-md-6'>
+                <h3 class='titulos_h3 center'>Humidity</h3>
+                <div class='center'>
+                    <a href="https://Chisllan.github.io/Weather_Visualization/humidity">
+                        <img src="Resources/humidity.png" class="img-fluid max-width:100%" width=380 alt="humidity">
+                    </a>
+                </div>
+
+            </div>
+            <div class='col-sm-12 col-md-6'>
+                <h3 class='titulos_h3 center'>Cloudiness</h3>
+                <div class='center'>
+                    <a href="https://Chisllan.github.io/Weather_Visualization/cloudiness">
+                        <img src="Resources/cloudiness.png" class="img-fluid max-width:100%" width=380 alt="cloudiness">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class='row'>
+            <div class='col-sm-12 col-md-6'>
+                <h3 class='titulos_h3 center'>Longitude</h3>
+                <div class='center'>
+                    <a href="https://Chisllan.github.io/Weather-visualization/lat-long">
+                        <img src="Resources/latitude-longitude.png" class="img-fluid max-width:100%" width=380
+                            alt="longitude">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <br>
+    </div>
+
+    <footer class="page-footer">
+        <div class='pie-pagina'>
+            <div class="footer-copyright text-center py-3">Copyright © 2019</div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

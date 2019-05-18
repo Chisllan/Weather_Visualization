@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude Visualization</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bar">
+
+    <a class="navbar-brand" href="https://Chisllan.github.io/Weather_Visualization/">
+      <h2 class='brand'>Latitude</h2>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle navformat" href="#" id="navbarDropdownMenuLink" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu navformat" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item navformat"
+              href="https://Chisllan.github.io/Weather_Visualization/temperature">Temperature</a>
+            <a class="dropdown-item navformat"
+              href="https://Chisllan.github.io/Weather_Visualization/wind_speed">Wind Speed</a>
+            <a class="dropdown-item navformat"
+              href="https://Chisllan.github.io/Weather_Visualization/humidity">Humidity</a>
+            <a class="dropdown-item navformat"
+              href="https://Chisllan.github.io/Weather_Visualization/cloudiness">Cloudiness</a>
+            <a class="dropdown-item navformat"
+              href="https://Chisllan.github.io/Weather_Visualization/lat-long">Latitude & Longitude</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navformat" href="https://Chisllan.github.io/Weather_Visualization/comparison">Comparison
+            <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navformat" href="https://Chisllan.github.io/Weather_Visualization/data">Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div>
+    <h1 class='gran_titulo'>Weather and the Equator</h1>
+  </div>
+
+  <div class='row'>
+    <div class='col-sm-12 col-md-7'>
+      <div class='container_left'>
+        <h2 class='titulos'>
+          Summary
+        </h2>
+        <div class='imagen'><img src="Resources/temperature.png" class="rounded float-left mr-4" width="320"
+            alt="trial square"></div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar enim vel ex aliquam, sit amet pretium
+          libero hendrerit. Maecenas consequat eget arcu eu viverra. Vestibulum consectetur nunc eu sagittis faucibus.
+          Mauris et nulla lacinia eros luctus iaculis quis vel ex. Maecenas tempus neque id enim iaculis pulvinar.
+          Curabitur quis sollicitudin lacus, at iaculis nunc. Maecenas vehicula quis metus in vestibulum.</p>
+        <p>In volutpat sed neque ac tempus. Cras commodo, lorem at tristique consequat, eros massa imperdiet nisl, eget
+          ultricies arcu nibh id dui. Mauris finibus nunc et odio lobortis ornare. Class aptent taciti sociosqu ad
+          litora torquent per conubia nostra, per inceptos himenaeos. Fusce iaculis tempus ante quis mattis. Praesent
+          vel eros arcu. Donec fringilla orci eu erat scelerisque, sed fringilla sapien pretium. Fusce vitae cursus
+          neque, eget elementum tellus. Mauris a elementum dolor. Etiam et ullamcorper risus. Fusce facilisis lacus
+          vitae turpis iaculis, ut commodo metus commodo. Mauris non fermentum justo, vel placerat sem. Nullam dapibus
+          dignissim diam, sed condimentum metus. Maecenas sapien arcu, tristique nec placerat quis, elementum nec magna.
+          Fusce viverra dictum sem, in consequat felis placerat et.</p>
+      </div>
+    </div>
+
+    <div class='col-sm-12 col-md-5'>
+      <div class='container_right '>
+        <h2 class='titulos'>
+          Visualizations
+        </h2>
+        <table width=100%;>
+          <tr>
+            <td class='cell' align='center'>
+              <a href="https://Chisllan.github.io/Weather_Visualization/temperature">
+                <img src="Resources/temperature.png" class="img-fluid max-width: 100%" width=200 alt="temperature"></a>
+            </td>
+            <td class='cell' align='center'>
+              <a href="https://Chisllan.github.io/Weather_Visualization/wind_speed">
+                <img src="Resources/wind_speed.png" class="img-fluid max-width: 100%" width=200 alt="wind_speed"></a>
+            </td>
+          </tr>
+          <tr>
+            <td class='cell' align='center'>
+              <a href="https://Chisllan.github.io/Weather_Visualization/humidity">
+                <img src="Resources/humidity.png" class="img-fluid max-width: 100%" width=200 alt="humidity"></a>
+            </td>
+            <td class='cell' align='center'>
+              <a href="https://Chisllan.github.io/Weather_Visualization/cloudiness">
+                <img src="Resources/cloudiness.png" class="img-fluid max-width: 100%" width=200 alt="cloudiness"></a>
+            </td>
+          </tr>
+          <tr>
+            <td class='cell' align='center'>
+              <a href="https://Chisllan.github.io/Weather_Visualization/lat-long">
+                <img src="Resources/latitude-longitude.png" class="img-fluid max-width: 100%" width=200
+                  alt="latitude_longitude"></a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <footer class="page-footer">
+    <div class='pie-pagina'>
+      <div class="footer-copyright text-center py-3">Copyright © 2019</div>
+    </div>
+  </footer>
+</body>
+</html>
